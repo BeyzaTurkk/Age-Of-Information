@@ -24,3 +24,4 @@ ylabel('AoI');
 title(['AoI Comparison (p = ', num2str(p), ')']);
 grid on;
 saveas(gcf, 'aoi_comparison_timeline.png');
+print(gcf, 'aoi_comparison_timeline', '-dpdf');

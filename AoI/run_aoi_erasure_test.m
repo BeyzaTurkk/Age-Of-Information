@@ -27,3 +27,4 @@ grid on;
 
 % Save the plot
 saveas(gcf, 'aoi_vs_success_probability.png');
+print(gcf, 'aoi_vs_success_probability', '-dpdf');

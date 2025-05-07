@@ -9,3 +9,4 @@ ylabel('Age of Information (AoI)');
 title('AoI Evolution Over Time');
 grid on;
 saveas(gcf, 'basic_aoi_plot.png'); 
+print(gcf, 'basic_aoi_plot', '-dpdf');

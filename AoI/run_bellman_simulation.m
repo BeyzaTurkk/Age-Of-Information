@@ -20,3 +20,4 @@ grid on;
 
 
 saveas(gcf, 'policy_based_aoi_plot.png');
+print(gcf, 'policy_based_aoi_plot', '-dpdf');

@@ -39,3 +39,4 @@ grid on;
 
 % Save plot
 saveas(gcf, 'strategy_comparison.png');
+print(gcf, 'strategy_comparison', '-dpdf');

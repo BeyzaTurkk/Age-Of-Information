@@ -1,0 +1,11 @@
+N = 100;
+M = 3;
+[avgAoI, AoI] = compute_average_AoI(N, M);
+disp(['Average AoI: ', num2str(avgAoI)]);
+figure;
+plot(1:N, AoI, 'LineWidth', 2);
+xlabel('Time Slot');
+ylabel('Age of Information (AoI)');
+title('AoI Evolution Over Time');
+grid on;
+saveas(gcf, 'basic_aoi_plot.png'); 

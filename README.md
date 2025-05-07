@@ -2,7 +2,7 @@
 
 This project explores Age of Information (AoI) minimization strategies using MATLAB.
 
-The work is based on a research problem proposed by Prof. Leonardo Badia, and includes both baseline implementations and advanced dynamic programming solutions.
+The work is based on a research problem , and includes both baseline implementations and advanced dynamic programming solutions.
 
 ## 📌 Contents
 

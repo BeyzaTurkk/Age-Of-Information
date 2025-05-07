@@ -23,7 +23,7 @@ The work is based on a research problem , and includes both baseline implementat
 
 ## 📊 Plots
 
-The repo includes several `.png` plots visualizing AoI over time and comparing strategies under various conditions.
+The repo includes several `.pdf` plots visualizing AoI over time and comparing strategies under various conditions.
 
 ## 🔬 Next Steps
 
